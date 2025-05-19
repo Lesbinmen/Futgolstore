@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futgol Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main-content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .main-content h2 {
+            color: #333;
+        }
+        .main-content p {
+            line-height: 1.6;
+        }
+        .catalog {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .catalog-item {
+            background: #fff;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            width: 45%;
+        }
+        .catalog-item img {
+            max-width: 100%;
+        }
+        .footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Futgol Store </h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#catalog">Catálogo</a></li>
+                    <li><a href="#promotions">Promociones</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about" class="main-content">
+            <h2>Nosotros</h2>
+            <p><strong>Misión:</strong> Ofrecer camisolas de fútbol de alta calidad que conecten a los aficionados con sus equipos y selecciones favoritas, brindando una experiencia de compra confiable, accesible y apasionada por el deporte.</p>
+            <p><strong>Visión:</strong> Ser la tienda líder en camisolas de fútbol en el mercado local y regional, reconocida por su variedad, autenticidad, atención personalizada y compromiso con la comunidad futbolera.</p>
+            <p><strong>Valores:</strong></p>
+            <ul>
+                <li>Compromiso con el cliente: Brindar una atención personalizada, rápida y amable para asegurar una experiencia de compra satisfactoria.</li>
+                <li>Accesibilidad: Ofrecer precios justos, variedad de tallas y opciones para distintos presupuestos con el fin de que todo aficionado pueda contar con la camisola de su equipo favorito.</li>
+                <li>Pasión por el deporte: Transmitir el amor por el fútbol en cada producto y atención al cliente, conectando emocionalmente con los fanáticos.</li>
+            </ul>
+        </section>
+
+        <section id="catalog" class="main-content">
+            <h2>Catálogo</h2>
+            <div class="catalog">
+                <div class="catalog-item">
+                    <h3>Real Madrid Local</h3>
+                    <p>Precio: Q450.00</p>
+                    <p>Tallas disponibles: S, M, L, XL</p>
+                    <p>Elaborado con tela de la mejor calidad, dándole la elasticidad perfecta para sentirte dentro de la cancha.</p>
+                </div>
+                <div class="catalog-item">
+                    <h3>Real Madrid Visitante</h3>
+                    <p>Precio: Q450.00</p>
+                    <p>Tallas disponibles: S, M, L, XL</p>
+                    <p>Para que puedas disfrutar desde la comodidad de tu casa y que sientas la camiseta en cada disparo.</p>
+                </div>
+                <div class="catalog-item">
+                    <h3>Real Madrid Retro</h3>
+                    <p>Precio: Q500.00</p>
+                    <p>Tallas disponibles: S, M, L, XL</p>
+                    <p>De manga corta, cuenta con cuello y en las mangas con detalles en dorado. Para que recuerdes esos grandes momentos.</p>
+                </div>
+                <div class="catalog-item">
+                    <h3>Barcelona Local</h3>
+                    <p>Precio: Q450.00</p>
+                    <p>Tallas disponibles: S, M, L, XL</p>
+                    <p>Elaborado con tela de la mejor calidad, dándole la elasticidad perfecta para sentirte dentro de la cancha.</p>
+                </div>
+                <div class="catalog-item">
+                    <h3>Barcelona Visitante</h3>
+                    <p>Precio: Q450.00</p>
+                    <p>Tallas disponibles: S, M, L, XL</p>
+                    <p>Para que puedas disfrutar desde la comodidad de tu casa y que puedas sudar la camiseta.</p>
+                </div>
+                <div class="catalog-item">
+                    <h3>Barcelona Retro</h3>
+                    <p>Precio: Q500.00</p>
+                    <p>Tallas disponibles: S, M, L, XL</p>
+                    <p>De manga corta, cuenta con cuello y en las mangas con detalles en dorado. Para que recuerdes esos grandes momentos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="promotions" class="main-content">
+            <h2>Promociones</h2>
+            <p>En la compra de una playera de tu equipo favorito te damos un 15% de descuento en tu segunda compra. *Aplican Restricciones*</p>
+        </section>
+
+        <section id="contact" class="main-content">
+            <h2>Contacto</h2>
+            
+            <p>Teléfonos: 5517-7865, 4238-3140</p>
+            <p>Facebook: Futgol Store     ||   Instagram: @futgolstore_gt  ||   Tik Tok: Futgolstore </p>
+            <p>Instagrama: @futgolstore_gt</p>
+            
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>Futgol Store &copy; 2025</p>
+    </footer>
+</body>
+</html>
